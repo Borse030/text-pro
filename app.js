@@ -6,8 +6,8 @@ const cors = require("cors");
 const axios = require('axios');
 const path = require("path");
 const mongoose = require("mongoose");
-const User = require("./routes/modals/users")
-const promptData = require("./routes/modals/input_Data.json")
+const User = require("./users")
+const promptData = require("./input_Data.json")
 const API_Key = "332dd53da1mshb8ea9defac497d0p1eee33jsn3a9d78c14faf"
 
 mongoose.connect("mongodb+srv://borse030:T0LgBfKnDQOxpwMS@cluster0.6cmx4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/Users", {

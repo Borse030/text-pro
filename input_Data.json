@@ -1,0 +1,92 @@
+{
+    "API_Features": [
+    {
+        "feature_name": "Summarizer",
+        "length": {
+          "0": "Summarize the content into a concise and clear statement, capturing the key points in under 100 words",
+          "20": "Provide concise summary of the text shortening the original content by 20%. Please ensure to provide a complete summarized response.",
+          "40": "Provide concise summary of the text shortening the original content by 40%. Please ensure to provide a complete summarized response.",
+          "60": "Elaborate on the key points in  text, adding detail and explanation to enrich the content by 60% and provide a more comprehensive understanding. Please ensure to provide a complete summarized response.",
+          "80": "Elaborate on the key points in the text, adding detail and explanation to enrich the content by 80% and provide a more comprehensive understanding. Please ensure to provide a complete summarized response.",
+          "100": "Elaborate on the key points in the text, adding detail and explanation to enrich the content by 100% and provide a more comprehensive understanding. Please ensure to provide a complete summarized response.",
+          "defaultPrompt": "Summarize the content into a concise and clear statement, capturing the key points in under 100 words",
+          "keyword": "Provide a concise summary of the text, capturing the main points and themes in a brief, coherent paragraph based on the keyword. Please ensure to provide a complete summarized response.",
+          "keywordIdentifier": "Capture the main keyword points one below the other from the following phrase"
+        }
+      },
+      {
+        "feature_name": "Translator",
+        "profession": {
+          "Marketing": "Please translate the following text by considering yourself as a Marketing into",
+          "Content Writer": "Please translate the following text by considering yourself as a Content Writer into",
+          "Business Owner": "Please translate the following text by considering yourself as a Business Owner into",
+          "HR Professional": "Please translate the following text by considering yourself as a HR Professional into",
+          "Product Manager": "Please translate the following text by considering yourself as a Product Manager  into",
+          "Medical Professional": "Please translate the following text by considering yourself as a Medical Professional into",
+          "Legal Professional": "Please translate the following text by considering yourself as a Legal Professional into"
+        },
+        "industry": {
+          "IT": "Please translate the following text by considering yourself as a working in a IT industry into",
+          "Healthcare": "Please translate the following text by considering yourself as a working in a Healthcare industry into",
+          "Finance": "Please translate the following text by considering yourself as a working in a Finance industry into",
+          "Agriculture": "Please translate the following text by considering yourself as a working in a Agriculture industry into",
+          "Education": "Please translate the following text by considering yourself as a working in a Education industry into",
+          "Retail": "Please translate the following text by considering yourself as a working in a Retail industry into",
+          "Telecommunication": "Please translate the following text by considering yourself as a working in a Telecommunication industry into"
+        },
+        "defaultPrompt": "Please translate the following text to",
+        "professionAndIndustry": {
+          "Content Writer_IT": "Please translate the following text by considering yourself as a Content Writer working in the IT industry into",
+          "Content Writer_Healthcare": "Please translate the following text by considering yourself as a Content Writer working in the Healthcare industry into ",
+          "Content Writer_Finance": "Please translate the following text by considering yourself as a Content Writer working in a Finance industry into",
+          "Content Writer_Agriculture": "Please translate the following text by considering yourself as a Content Writer working in Agriculture industry into",
+          "Content Writer_Education": "Please translate the following text by considering yourself as a Content Writer working in Education industry into",
+          "Content Writer_Retail": "Please translate the following text by considering yourself as a Content Writer working in Retail industry into",
+          "Content Writer_Telecommunication": "Please translate the following text by considering yourself as a Content Writer working in telecommunication industry into",
+          "Business Owner_IT": "Please translate the following text by considering yourself as a Business Owner working in IT industry into",
+          "Business Owner_Healthcare": "Please translate the following text by considering yourself as a Business Owner working in Healthcare industry into",
+          "Business Owner_Finance": "Please translate the following text by considering yourself as a Business Owner working in Finance industry into",
+          "Business Owner_Agriculture": "Please translate the following text by considering yourself as a Business Owner working in Agriculture industry into",
+          "Business Owner_Education": "Please translate the following text by considering yourself as a Business Owner working in Education industry into",
+          "Business Owner_Retail": "Please translate the following text by considering yourself as a Business Owner working in Retail industry into",
+          "Business Owner_Telecommunication": "Please translate the following text by considering yourself as a Business Owner working in Telecommunication industry into",
+          "HR Professional_IT": "Please translate the following text by considering yourself as a HR Professional working in IT industry into",
+          "HR Professional_Healthcare": "Please translate the following text by considering yourself as a HR Professional working in Healthcare industry into",
+          "HR Professional_Finance": "Please translate the following text by considering yourself as a HR Professional working in Finance industry into",
+          "HR Professional_Agriculture": "Please translate the following text by considering yourself as a HR Professional working in Agriculture industry into",
+          "HR Professional_Education": "Please translate the following text by considering yourself as a HR Professional working in Education industry into",
+          "HR Professional_Retail": "Please translate the following text by considering yourself as a HR Professional working in Retail industry into",
+          "HR Professional_Telecommunication": "Please translate the following text by considering yourself as a HR Professional working in Telecommunication industry into",
+          "Marketing_IT": "Please translate the following text by considering yourself as a Marketing working in IT industry into",
+          "Marketing_Healthcare": "Please translate the following text by considering yourself as a Marketing working in Healthcare industry into",
+          "Marketing_Finance": "Please translate the following text by considering yourself as a Marketing working in Finance industry into",
+          "Marketing_Agriculture": "Please translate the following text by considering yourself as a Marketing working in Agriculture industry into",
+          "Marketing_Education": "Please translate the following text by considering yourself as a Marketing working in Education industry into",
+          "Marketing_Retail": "Please translate the following text by considering yourself as a Marketing working in Retail industry into",
+          "Marketing_Telecommunication": "Please translate the following text by considering yourself as a Marketing working in Telecommunication industry into",
+          "Product Manager_IT": "Please translate the following text by considering yourself as a Product Manager working in IT industry into",
+          "Product Manager_Healthcare": "Please translate the following text by considering yourself as a Product Manager working in Healthcare industry into",
+          "Product Manager_Finance": "Please translate the following text by considering yourself as a Product Manager working in Finance industry into",
+          "Product Manager_Agriculture": "Please translate the following text by considering yourself as a Product Manager working in Agriculture industry into",
+          "Product Manager_Education": "Please translate the following text by considering yourself as a Product Manager working in Education industry into",
+          "Product Manager_Retail": "Please translate the following text by considering yourself as a Product Manager working in Retail industry into",
+          "Product Manager_Telecommunication": "Please translate the following text by considering yourself as a Product Manager working in Telecommunication industry into",
+          "Medical Professional_IT": "Please translate the following text by considering yourself as a Medical Professional working in IT industry into",
+          "Medical Professional_Healthcare": "Please translate the following text by considering yourself as a Medical Professional working in Healthcare industry into",
+          "Medical Professional_Finance": "Please translate the following text by considering yourself as a Medical Professional working in Finance industry into",
+          "Medical Professional_Agriculture": "Please translate the following text by considering yourself as a Medical Professional working in Agriculture industry into",
+          "Medical Professional_Education": "Please translate the following text by considering yourself as a Medical Professional working in Education industry into",
+          "Medical Professional_Retail": "Please translate the following text by considering yourself as a Medical Professional working in Retail industry into",
+          "Medical Professional_Telecommunication": "Please translate the following text by considering yourself as a Medical Professional working in Telecommunication industry into",
+          "Legal Professional_IT": "Please translate the following text by considering yourself as a Legal Professional working in IT industry into",
+          "Legal Professional_Healthcare": "Please translate the following text by considering yourself as a Legal Professional working in Healthcare industry into",
+          "Legal Professional_Finance": "Please translate the following text by considering yourself as a Legal Professional working in Finance industry into",
+          "Legal Professional_Agriculture": "Please translate the following text by considering yourself as a Legal Professional working in Agriculture industry into",
+          "Legal Professional_Education": "Please translate the following text by considering yourself as a Legal Professional working in Education industry into",
+          "Legal Professional_Retail": "Please translate the following text by considering yourself as a Legal Professional working in Retail industry into",
+          "Legal Professional_Telecommunication": "Please  translate the following text by considering yourself as a Legal Professional working in Telecommunication industry into"
+        },
+        "detectLanguage": "Please identify the language of given text in one word only: "
+      }
+]
+}
